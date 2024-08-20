@@ -1,0 +1,15 @@
+.containerSection{
+    @apply max-w-[1500px] w-full m-auto mt-20 mobil:mt-12
+}
+.textContainer{
+    @apply text-center font-poppins
+}
+.primaryText{
+    @apply text-2xl font-bold MiniPortable:text-sm mobil:text-lg Tablette:text-xl
+}
+.secondText{
+    @apply text-4xl font-bold MiniPortable:text-lg mobil:text-xl Tablette:text-2xl
+}
+.primaryParagraph{
+    @apply my-8 font-Inter MiniPortable:text-xs MiniPortable:my-2 mobil:text-sm mobil:my-3 Tablette:text-sm Tablette:my-4
+}
